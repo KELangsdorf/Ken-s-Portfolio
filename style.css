@@ -1,0 +1,69 @@
+html {
+    background-color: darkblue;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+article {
+    top: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: deeppink;
+    color:chartreuse;
+    display: flex;
+    height: 90px;
+    padding: 5px;
+    justify-content: center;
+    margin: 0 10px 0;
+    text-shadow: 1px 1px 2px black;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 85px 24px 96px;
+    color: chartreuse;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+}
+main > img {
+    width: 400px;
+}
+
+main .setitoff {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px black;
+}
+
+footer {
+    background-color: deeppink;
+    height: 90px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    margin: 0;
+}
+.facebook {
+    height: 100px;
+}
+.twitter {
+    height: 100px;
+}
+.linked {
+    height: 100px;
+}
