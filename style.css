@@ -87,3 +87,12 @@ section {
 .image {
     width: 400px;
 }
+.portimage {
+    width: 800px;
+}
+.module {
+    font-size: 20px;
+    color: deeppink;
+    padding: 3px;
+    background: rgb(142, 138, 156);
+}
