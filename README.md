@@ -1,12 +1,8 @@
-Ken's Personal Website Project:
-My Home Page:
-A brief description of myself along with an inspirational quote and links to my social media pages.
+Ken's Personal Website Project: My Home Page: A brief description of myself along with an inspirational quote and links to my social media pages.
 
-My About Me Page:
-A brief description of my hobbies and things I enjoy.
+My About Me Page: A brief description of my hobbies and things I enjoy.
 
-My Portfolio Page:
-A quick breakdown of the early modules we submitted in this cohort.
+My Portfolio Page: A quick breakdown of the early modules we submitted in this cohort.
 
 I've included a common CSS file with each page.
 
