@@ -4,6 +4,10 @@ html {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.test {
+    text-align: center;
+}
+
 article {
     top: 0;
     position: fixed;
