@@ -100,3 +100,9 @@ section {
     padding: 3px;
     background: rgb(142, 138, 156);
 }
+.contact {
+    color: aliceblue;
+}
+.contact:hover {
+    color: chartreuse;
+}
