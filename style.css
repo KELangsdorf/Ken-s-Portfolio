@@ -1,9 +1,24 @@
+/* Standard for the Overall HTML */
 html {
     background-color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 19px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/*Body Test */
+body {
+    background-color:rebeccapurple;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+
+
+.test {
+    text-align: center;
+}
+
+
+/* Standard for the Top Section of Each Page */
 article {
     top: 0;
     position: fixed;
@@ -11,7 +26,7 @@ article {
     right: 0;
     align-items: center;
     background-color: deeppink;
-    color:chartreuse;
+    color: chartreuse;
     display: flex;
     height: 90px;
     padding: 5px;
@@ -19,6 +34,7 @@ article {
     margin: 0 10px 0;
     text-shadow: 1px 1px 2px black;
 }
+/* Standard for the Main Section of Each Page */
 main {
     display: flex;
     flex-direction: column;
@@ -27,11 +43,14 @@ main {
     min-height: 100vh;
     padding: 85px 24px 96px;
     color: chartreuse;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-shadow: 1px 1px 2px black;
+    box-sizing: border-box;
 }
-main > img {
+
+
+main>img {
     width: 400px;
 }
 
@@ -42,7 +61,7 @@ main .setitoff {
     font-size: 25px;
     text-shadow: 1px 1px 2px black;
 }
-
+/* Standard for the Bottom Section of Each Page */
 footer {
     background-color: deeppink;
     height: 90px;
@@ -55,30 +74,25 @@ footer {
     display: flex;
     justify-content: center;
 }
+
 footer a {
     margin: 0;
 }
+
 .facebook {
     height: 100px;
 }
+
 .twitter {
     height: 100px;
 }
+
 .linked {
     height: 100px;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    min-height: 100vh;
-    padding 85px 24px 96px;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
+
+/* Standard for the ABOUT ME Section */
 section {
     display: block;
     border-top: 1px solid white;
@@ -87,12 +101,73 @@ section {
 .image {
     width: 400px;
 }
+
 .portimage {
     width: 800px;
 }
+
 .module {
     font-size: 20px;
     color: deeppink;
     padding: 3px;
     background: rgb(142, 138, 156);
+}
+
+.contact {
+    color: aliceblue;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background-color: lightslategray;
+    color: aliceblue;
+    border-style: solid;
+    border-color: chartreuse;
+}
+
+textarea {
+    background-color: lightslategray;
+    color: aliceblue;
+    font-size: 20px;
+    border-style: solid;
+    border-color: chartreuse;
+}
+
+/* Standard for the Form Page */
+.fname {
+    font-size: 18px;
+}
+
+form {
+    text-align: left;
+}
+
+button {
+    margin-top: 10px;
+    background-color: lightslategray;
+    color:white;
+    border-style: solid;
+    border-color: chartreuse;
+}
+
+.thank {
+color: chartreuse;
+text-align: center;
+}
+
+
+button:hover {
+    color: chartreuse;
+}
+.contact:hover {
+    color: chartreuse;
+}
+
+.smile {
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
